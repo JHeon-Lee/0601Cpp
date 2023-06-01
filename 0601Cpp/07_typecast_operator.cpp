@@ -44,6 +44,7 @@ void PrintPoint(float points[3])
 	cout << points[2] << endl;
 }
 
+#pragma region 시분초밀리 형변환
 class Minute
 {
 	int minute;
@@ -139,6 +140,7 @@ void PrintMiliSecond(MiliSecond milisecond)
 {
 	cout << milisecond << endl;
 }
+#pragma endregion
 
 int main()
 {

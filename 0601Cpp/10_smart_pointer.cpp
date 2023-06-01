@@ -30,7 +30,7 @@ public:
 	}
 };
 
-class SmartPtr
+class SmartPtr // 포인터처럼 동작하는 클래스
 {
 	Point* posptr;
 
@@ -49,7 +49,7 @@ public:
 
 	~SmartPtr()
 	{
-		delete posptr; // 생성자에서 new 연산이 됐다는 가정이 들어감
+		delete posptr; // 생성자에서 new 연산이 됐다는 가정이 들어감, 스마트포인터 쓰는 가장 큰 이유
 	}
 };
 
